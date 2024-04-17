@@ -1,0 +1,168 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    activate:
+      on-profile: local
+  kafka:
+    consumer:
+      properties:
+        partition:
+          assignment:
+            strategy: org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+    com.walmart.aex.sizeandpack.listener: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} AEX-SIZEANDPACK-LISTENER [%thread] %-5level %logger{36} - %msg%n"
+
+runtime:
+  context:
+    appVersion: 1.0.0-SNAPSHOT
+    environment: DEV
+    system:
+      property:
+        override:
+          enabled: true
+    environmentType: dev
+    appName: aex-size-and-pack-listener
+
+scm:
+  server:
+    access:
+      enabled: true
+  snapshot:
+    enabled: true
+---
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    activate:
+      on-profile: dev
+  kafka:
+    consumer:
+      properties:
+        partition:
+          assignment:
+            strategy: org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+    com.walmart.aex.sizeandpack.listener: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} AEX-SIZEANDPACK-LISTENER  [%thread] %-5level %logger{36} - %msg%n"
+
+runtime:
+  context:
+    appVersion: 1.0.0-SNAPSHOT
+    environment: DEV
+    system:
+      property:
+        override:
+          enabled: true
+    environmentType: dev
+    appName: aex-size-and-pack-listener
+
+scm:
+  server:
+    access:
+      enabled: true
+  snapshot:
+    enabled: true
+---
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    activate:
+      on-profile: stg
+  kafka:
+    consumer:
+      properties:
+        partition:
+          assignment:
+            strategy: org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+    com.walmart.aex.strategy.listener: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} AEX-SIZEANDPACK-LISTENER [%thread] %-5level %logger{36} - %msg%n"
+
+runtime:
+  context:
+    appVersion: 1.0.0-SNAPSHOT
+    environment: STG
+    system:
+      property:
+        override:
+          enabled: true
+    environmentType: stg
+    appName: aex-strategy-listener
+
+scm:
+  server:
+    access:
+      enabled: true
+  snapshot:
+    enabled: true
+---
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    activate:
+      on-profile: prod
+  kafka:
+    consumer:
+      properties:
+        partition:
+          assignment:
+            strategy: org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+    com.walmart.aex.strategy.listener: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} AEX-STRATEGY-LISTENER [%thread] %-5level %logger{36} - %msg%n"
+
+runtime:
+  context:
+    appVersion: 1.0.0-SNAPSHOT
+    environment: PROD
+    system:
+      property:
+        override:
+          enabled: true
+    environmentType: prod
+    appName: aex-size-and-pack-listener
+
+scm:
+  server:
+    access:
+      enabled: true
+  snapshot:
+    enabled: true
+---
+management:
+  health:
+    db:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - loggers
+    health:
+      show-details: always
+  endpoint:
+    loggers:
+      enabled: true

@@ -1,0 +1,1741 @@
+[
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31510,
+    "finelineNbr": 2732,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2732_3_24_002",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2732_3_24_002_BLUE",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2732_3_24_002_003",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2732_3_24_002_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2732_3_24_002_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31511,
+    "finelineNbr": 2924,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2924_3_22_1",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2924_3_22_1_BLACK SOOT",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 17172109,
+                "sizes": [
+                  "0X (14W)",
+                  "1X (16W/18W)",
+                  "2X (20W/22W)",
+                  "3X (24W/26W)"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": 4.5600,
+                "vsn": "AW33100076141",
+                "factoryId": 28024126,
+                "supplierNbr": 585,
+                "supplier8Nbr": 20014504,
+                "supplier9Nbr": 585340,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": null
+              },
+              {
+                "quoteId": 17172110,
+                "sizes": [
+                  "4X (28W/30W)",
+                  "5X (32W/34W)"
+                ],
+                "firstCost": 10.0000,
+                "landedCost": null,
+                "vsn": "VSN43513",
+                "factoryId": 23863789,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": null,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": "IMPORT"
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2924_3_22_1_GREEN BLAST",
+            "plmAcceptedQuotes": []
+          }
+        ]
+      },
+      {
+        "styleNbr": "34_2924_3_24_001",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2924_3_24_001_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 17172109,
+                "sizes": [
+                  "0X (14W)",
+                  "1X (16W/18W)",
+                  "2X (20W/22W)",
+                  "3X (24W/26W)"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": 4.5600,
+                "vsn": "AW33100076141",
+                "factoryId": 28024126,
+                "supplierNbr": 585,
+                "supplier8Nbr": 20014504,
+                "supplier9Nbr": 585340,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": null
+              },
+              {
+                "quoteId": 17172110,
+                "sizes": [
+                  "4X (28W/30W)",
+                  "5X (32W/34W)"
+                ],
+                "firstCost": 10.0000,
+                "landedCost": null,
+                "vsn": "VSN43513",
+                "factoryId": 23863789,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": null,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": "IMPORT"
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2924_3_24_001_001",
+            "plmAcceptedQuotes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12231,
+    "lvl4Nbr": 31514,
+    "finelineNbr": 2723,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2723_4_21_3",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2723_4_21_3_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2723_4_21_3_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2723_4_21_3_BLACK SOOT",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2723_4_21_3_COFFEE CAKE MARL",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 1488,
+    "lvl3Nbr": 12965,
+    "lvl4Nbr": 34975,
+    "finelineNbr": 307,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_307_3_24_001",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_307_3_24_001_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_307_3_24_001_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_307_3_24_001_003",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_307_3_24_001_004",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 1488,
+    "lvl3Nbr": 12775,
+    "lvl4Nbr": 34008,
+    "finelineNbr": 1789,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_1789_3_24_001",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_1789_3_24_001_004",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1789_3_24_001_003",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1789_3_24_001_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1789_3_24_001_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 1488,
+    "lvl3Nbr": 12775,
+    "lvl4Nbr": 34007,
+    "finelineNbr": 457,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_457_3_24_001",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_457_3_24_001_004",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_457_3_24_001_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_457_3_24_001_003",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_457_3_24_001_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31507,
+    "finelineNbr": 2816,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2816_1_17_1",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2816_1_17_1_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "styleNbr": "34_2816_3_24_001",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2816_3_24_001_004",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2816_3_24_001_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2816_3_24_001_003",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2816_3_24_001_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12231,
+    "lvl4Nbr": 31513,
+    "finelineNbr": 5151,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_5151_3_22_6",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_5151_3_22_6_BATIK PATCHWORK_PEACH GLAZE",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31508,
+    "finelineNbr": 2702,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2702_2_22_2",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2702_2_22_2_BLACK SOOT",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 17172109,
+                "sizes": [
+                  "0X (14W)",
+                  "1X (16W/18W)",
+                  "2X (20W/22W)",
+                  "3X (24W/26W)"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": 4.5600,
+                "vsn": "AW33100076141",
+                "factoryId": 28024126,
+                "supplierNbr": 585,
+                "supplier8Nbr": 20014504,
+                "supplier9Nbr": 585340,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": null
+              },
+              {
+                "quoteId": 17172110,
+                "sizes": [
+                  "4X (28W/30W)",
+                  "5X (32W/34W)"
+                ],
+                "firstCost": 10.0000,
+                "landedCost": null,
+                "vsn": "VSN43513",
+                "factoryId": 23863789,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": null,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": "IMPORT"
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_2702_2_22_2_COSMO CORAL",
+            "plmAcceptedQuotes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31507,
+    "finelineNbr": 2818,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2818_4_17_12",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2818_4_17_12_AQUA BLOSSOM",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12231,
+    "lvl4Nbr": 31514,
+    "finelineNbr": 1185,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_1185_4_21_5",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_1185_4_21_5_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1185_4_21_5_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1185_4_21_5_PURPLE OXFORD",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1185_4_21_5_BLACK SOOT",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12231,
+    "lvl4Nbr": 31514,
+    "finelineNbr": 5141,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_5141_4_21_11",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_5141_4_21_11_BLACK SOOT MARL",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "styleNbr": "34_5141_4_21_9",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_5141_4_21_9_PLUM GREY MARL",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12228,
+    "lvl4Nbr": 31507,
+    "finelineNbr": 2819,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_2819_4_17_2",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_2819_4_17_2_BLACK",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 17172109,
+                "sizes": [
+                  "0X (14W)",
+                  "1X (16W/18W)",
+                  "2X (20W/22W)",
+                  "3X (24W/26W)"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": 4.5600,
+                "vsn": "AW33100076141",
+                "factoryId": 28024126,
+                "supplierNbr": 585,
+                "supplier8Nbr": 20014504,
+                "supplier9Nbr": 585340,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": null
+              },
+              {
+                "quoteId": 17172110,
+                "sizes": [
+                  "4X (28W/30W)",
+                  "5X (32W/34W)"
+                ],
+                "firstCost": 10.0000,
+                "landedCost": null,
+                "vsn": "VSN43513",
+                "factoryId": 23863789,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": null,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": "IMPORT"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 1488,
+    "lvl3Nbr": 12965,
+    "lvl4Nbr": 34974,
+    "finelineNbr": 405,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_405_4_21_2",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_405_4_21_2_FRAGRANT LILAC HEATHER",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754508,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122620",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_405_4_21_2_002",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754509,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122621",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754510,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L"
+                ],
+                "firstCost": 4.0100,
+                "landedCost": null,
+                "vsn": "TS23100122621A",
+                "factoryId": 100037308,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": 425577230,
+                "supplierName": "Odd Sox Distribution LLC",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_405_4_21_2_001",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754513,
+                "sizes": [
+                  "S",
+                  "M",
+                  "L",
+                  "XL"
+                ],
+                "firstCost": 5.5800,
+                "landedCost": null,
+                "vsn": "TS23100122626",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754514,
+                "sizes": [
+                  "XL",
+                  "XXL"
+                ],
+                "firstCost": 6.0900,
+                "landedCost": null,
+                "vsn": "TS23100122626A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_405_4_21_2_ENSIGN BLUE",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 1754512,
+                "sizes": [
+                  "3X",
+                  "4X",
+                  "5X"
+                ],
+                "firstCost": 6.0100,
+                "landedCost": null,
+                "vsn": "TS23100122625A",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              },
+              {
+                "quoteId": 1754511,
+                "sizes": [
+                  "0X",
+                  "1X",
+                  "2X"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": null,
+                "vsn": "TS23100122625",
+                "factoryId": 100037308,
+                "supplierNbr": 13040,
+                "supplier8Nbr": 28001704,
+                "supplier9Nbr": 13040342,
+                "supplierName": "G-III LEATHER FASHIONS, INC.",
+                "supplierType": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "planId": 12,
+    "lvl0Nbr": 50000,
+    "lvl1Nbr": 34,
+    "lvl2Nbr": 6419,
+    "lvl3Nbr": 12231,
+    "lvl4Nbr": 31514,
+    "finelineNbr": 1186,
+    "plmAcceptedQuoteStyles": [
+      {
+        "styleNbr": "34_1186_1_22_2",
+        "plmAcceptedQuoteCcs": [
+          {
+            "customerChoice": "34_1186_1_22_2_FLOWER DRESSING",
+            "plmAcceptedQuotes": [
+              {
+                "quoteId": 17172109,
+                "sizes": [
+                  "0X (14W)",
+                  "1X (16W/18W)",
+                  "2X (20W/22W)",
+                  "3X (24W/26W)"
+                ],
+                "firstCost": 5.2230,
+                "landedCost": 4.5600,
+                "vsn": "AW33100076141",
+                "factoryId": 28024126,
+                "supplierNbr": 585,
+                "supplier8Nbr": 20014504,
+                "supplier9Nbr": 585340,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": null
+              },
+              {
+                "quoteId": 17172110,
+                "sizes": [
+                  "4X (28W/30W)",
+                  "5X (32W/34W)"
+                ],
+                "firstCost": 10.0000,
+                "landedCost": null,
+                "vsn": "VSN43513",
+                "factoryId": 23863789,
+                "supplierNbr": null,
+                "supplier8Nbr": null,
+                "supplier9Nbr": null,
+                "supplierName": "ALPINE CREATIONS LIMITED",
+                "supplierType": "IMPORT"
+              }
+            ]
+          },
+          {
+            "customerChoice": "34_1186_1_22_2_001",
+            "plmAcceptedQuotes": []
+          }
+        ]
+      }
+    ]
+  }
+]

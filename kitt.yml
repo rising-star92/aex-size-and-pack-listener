@@ -1,0 +1,198 @@
+owner:
+  group: apparel-precision-kitt
+
+profiles:
+  - springboot-web-jre11
+  - "git://Tunr:strati-af-ccm2-assets:master:ccm2v2"
+  - goldensignal-strati
+
+build:
+  buildType: maven-j11
+  docker:
+    app:
+      buildArgs:
+        mavenVersion: 3-jdk-11
+        openJDKVersion: 13-alpine
+        sonarProjKey: aex-size-and-pack-listener
+        sonarOpts: "-Dsonar.sources=src/main/java
+          -Dsonar.java.binaries=target/classes
+          -Dsonar.junit.reportPaths=target/surefire-reports
+          -Dsonar.jacoco.reportPaths=target/jacoco.exec
+          -Dsonar.pullrequest.github.repository=${GITHUB_ORG}/${GITHUB_REPO}
+          -Dsonar.pullrequest.key=${GITHUB_PR_NUMBER}
+          -Dsonar.pullrequest.branch=${GITHUB_PR_SOURCE_BRANCH}
+          -Dsonar.pullrequest.base=${GITHUB_PR_TARGET_BRANCH}
+          -Dsonar.scm.revision=${GITHUB_PR_HEAD_SHA}"
+
+deploy:
+  namespace: apparel-precision
+  changeRecord:
+    group: "apparel-precision-kitt"
+    managerGroup: "Change Managers - US"
+    affectedGEOs: [ "US" ]
+    notifyChannels: [ "apparel-precision-ops" ]
+  releaseType:
+    rollbackOnError: false
+    waitForReady: true
+    deployTimeout: 600
+  helm:
+    values:
+      livenessProbe:
+        wait: 120
+        path: "/actuator/health"
+      readinessProbe:
+        wait: 120
+        path: "/actuator/health"
+      networking:
+        httpsEnabled: true
+        httpEnabled: true
+        pathPrefix: /
+        externalPort: "8080"
+        internalPort: "8080"
+        gslbdnszone: k8s.glb.us.walmart.net
+      secrets:
+        files:
+          - destination: /ssl.truststore.txt
+            content: aex-size-and-pack-listener/{{ $.kittExec.currentCluster.profile }}#ssl.truststore
+          - destination: /ssl.keystore.txt
+            content: aex-size-and-pack-listener/{{ $.kittExec.currentCluster.profile }}#ssl.keystore
+          - destination: /ssl.truststore.password.txt
+            content: aex-size-and-pack-listener/{{ $.kittExec.currentCluster.profile }}#ssl.truststore.password
+  gslb:
+    lbRoutings:
+      dev:
+        cnames:
+          - aex-size-and-pack-listener.dev.walmart.net
+      stage:
+        cnames:
+          - aex-size-and-pack-listener.stg.walmart.net
+      prod:
+        cnames:
+          - aex-size-and-pack-listener.prod.walmart.net
+  stages:
+    - name: dev
+      refs:
+        - main
+      target:
+        cluster_id:
+          - useast-dev-az-002
+      helm:
+        values:
+          min:
+            cpu: 800m
+            memory: 600Mi
+          max:
+            cpu: 1
+            memory: 800Mi
+          scaling:
+            cpuPercent: 70
+            min: 2
+            max: 3
+          metadata:
+            labels:
+              ccm.serviceId: aex-sizeandpack-listener
+              ccm.serviceConfigVersion: "1.3"
+              wm.app: AEX-SIZEANDPACK-LISTENER
+              wm.env: 'dev'
+          env:
+            JAVA_OPTS: "-Dspring.profiles.active=dev
+                        -Dccm.configs.dir=/etc/config
+                        -Djava.awt.headless=true
+                        -Dcom.walmart.platform.config.appName={{$.kitt.build.artifact}}
+                        -Dcom.walmart.platform.config.runOnEnv={{ $.kittExec.currentCluster.profile }}
+                        -Dcom.walmart.platform.logging.kafka.brokerList={{ $.kittExec.currentCluster.site }}.kafka.medusa.prod.walmart.com:9092
+                        -Dcom.walmart.platform.config.runOnDataCenter={{ $.kittExec.currentCluster.site }}
+                        -Dio.strati.RuntimeContext=io.strati.impl.runtime.context.RuntimeContextEnv
+                        -Dcom.walmart.platform.telemetry.otel.enabled=true
+                        -Dcom.walmart.platform.metrics.impl.type=MICROMETER
+                        -Dcom.walmart.platform.txnmarking.otel.type=LOGGING
+                        -Dcom.walmart.platform.logging.profile=OTEL"
+    - name: stage
+      approvers:
+        groups:
+          - "apparel-precision-kitt-admins"
+      refs:
+        - main
+      target:
+        cluster_id:
+          - eus2-stage-a2
+          - scus-stage-a4
+      helm:
+        values:
+          min:
+            cpu: 800m
+            memory: 600Mi
+          max:
+            cpu: 1
+            memory: 800Mi
+          scaling:
+            cpuPercent: 70
+            min: 2
+            max: 3
+          metadata:
+            labels:
+              ccm.serviceId: aex-sizeandpack-listener
+              ccm.serviceConfigVersion: "1.3"
+              wm.app: AEX-SIZEANDPACK-LISTENER
+              wm.env: 'stage'
+          env:
+            JAVA_OPTS: "-Dspring.profiles.active=stg
+                          -Dccm.configs.dir=/etc/config
+                          -Djava.awt.headless=true
+                          -Dcom.walmart.platform.config.appName={{$.kitt.build.artifact}}
+                          -Dcom.walmart.platform.config.runOnEnv={{ $.kittExec.currentCluster.profile }}
+                          -Dcom.walmart.platform.logging.kafka.brokerList={{ $.kittExec.currentCluster.site }}.kafka.medusa.prod.walmart.com:9092
+                          -Dcom.walmart.platform.config.runOnDataCenter={{ $.kittExec.currentCluster.site }}
+                          -Dio.strati.RuntimeContext=io.strati.impl.runtime.context.RuntimeContextEnv
+                          -Dcom.walmart.platform.telemetry.otel.enabled=true
+                          -Dcom.walmart.platform.metrics.impl.type=MICROMETER
+                          -Dcom.walmart.platform.txnmarking.otel.type=LOGGING
+                          -Dcom.walmart.platform.logging.profile=OTEL"
+    - name: prod
+      approvers:
+        groups:
+          - "apparel-precision-kitt-admins"
+      refs:
+        - main
+      target:
+        cluster_id:
+          - eus2-prod-a10
+          - uswest-prod-az-015
+      helm:
+        values:
+          min:
+            cpu: 800m
+            memory: 600Mi
+          max:
+            cpu: 1
+            memory: 800Mi
+          scaling:
+            cpuPercent: 70
+            min: 2
+            max: 4
+          metadata:
+            labels:
+              ccm.serviceId: aex-sizeandpack-listener
+              ccm.serviceConfigVersion: "1.1-PROD"
+              wm.app: AEX-SIZEANDPACK-LISTENER
+              wm.env: 'prod'
+          env:
+            JAVA_OPTS: "-Dspring.profiles.active=prod
+                          -Dccm.configs.dir=/etc/config
+                          -Djava.awt.headless=true
+                          -Dcom.walmart.platform.config.appName={{$.kitt.build.artifact}}
+                          -Dcom.walmart.platform.config.runOnEnv={{ $.kittExec.currentCluster.profile }}
+                          -Dcom.walmart.platform.logging.kafka.brokerList={{ $.kittExec.currentCluster.site }}.kafka.medusa.prod.walmart.com:9092
+                          -Dcom.walmart.platform.config.runOnDataCenter={{ $.kittExec.currentCluster.site }}
+                          -Dio.strati.RuntimeContext=io.strati.impl.runtime.context.RuntimeContextEnv
+                          -Dcom.walmart.platform.telemetry.otel.enabled=true
+                          -Dcom.walmart.platform.metrics.impl.type=MICROMETER
+                          -Dcom.walmart.platform.txnmarking.otel.type=LOGGING
+                          -Dcom.walmart.platform.logging.profile=OTEL"
+notify:
+  slack:
+    channelName: "apparel-precision-ops"
+
+alerts:
+  slackChannel:
+    - apparel-precision-alerts

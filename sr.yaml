@@ -1,0 +1,44 @@
+schemaVersion: 1.0.0
+notify:
+  slack:
+    channelName: apparel-precision-ops
+applications:
+  - name: aex-sizeandpack-listener
+    key: AEX-SIZEANDPACK-LISTENER
+    description: App to listen line plan events and call SP service to persist
+    organization: ApparelPrecision
+    companyCatalog: true
+    businessCriticality: MINOR
+    members:
+      - homeoffice\jkollip
+      - homeoffice\a0b0bzv
+      - homeoffice\damusta
+      - homeoffice\d0o03d1
+    environments:
+      - name: dev
+        type: DEVELOPMENT
+        description: SP Listener in dev cluster
+        externalCatalog: false
+        serviceType: REST
+        wcnpProximity: true
+        consumerIdInfos:
+        - consumerId: b0ddabfe-bb3f-4759-b6f9-5445ff9c3cdd
+          publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAygqWtFbQoitZVqecOFpIfQ7yculFUDVBbHsigq8FQhoZl1fLbLZQgqX9gvaAQY+p0gbLbsjvX9L6MQkLT4U3pk0kj5zk0g5iL8v+tzTLYzOU5WfJSPllRF0VUlteIfDGNLkBqoGod9VHjoPiFNwS83bt38VIoJCsWv6pP27j+o0v5eOv+vRb3SAZRApRMNymEmkl5Y8FAWMl7TFpUoHhfS9TI83rJIOpewXTzudmQzJ45VZwfdiB91DKAbxRogYvVl+xZ4psUV9630RmWmZStLTcN048BTddDaYbNGERkFcM2PfyIJydH5bjH3msxsUmW9Gt+UKSKEh8hXMUU+pZRwIDAQAB
+      - name: stg
+        type: STAGING
+        description: SP Listener in stg cluster
+        externalCatalog: false
+        serviceType: REST
+        wcnpProximity: true
+        consumerIdInfos:
+        - consumerId: 916c8e2b-e1a8-4ee4-8d3c-fe0a5dc5588a
+          publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+PGmdsaM5O2MLIzFGQuDkEtSodeW8xqUHWedC7qxl1Z/PvNos4yHOemYIn1PSV3c30lDOO3lXbcVEsj3c0pJ8+bmc7h5ln+jpFSbpo9mQi3TkQc61aJUva6DDSVNIhIsQQ7uzvT8Jx9hT2bvoYE6nS+pnX+AsPQorbmGv4VjriwA3dQHlJaTwlKZv4TpOw5yhfRBjpWlKqUz8xo0FYKuog4uNIutFh44/D2noyatt2BKnEslKhDrEn5cf+RlRctkJzpMHqkjxVIzxFBU244pPDfJtQpQhp8rtKIjIclgNLXa7v0HTP+M1e7jOTQvaYSLhUS5POf0shl7RQNQAaQrpwIDAQAB
+      - name: prod
+        type: PRODUCTION
+        description: SP Listener in prod cluster
+        externalCatalog: false
+        serviceType: REST
+        wcnpProximity: true
+        consumerIdInfos:
+        - consumerId: b27f73cc-1cab-437f-9524-a9056d561d73
+          publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr8nHEvWGhKZEwm3RJVV+o1pj02S7vhZKQKj8pv/xEJbXZWytShcNUP1a+3bUYAt380yjjzUCMGt2Zr1l9F6Db4hU878w+0oN2h+UkUKDZVU9u/tB/0qaLHRwMrU80ncqTIrVTvXOO1AEwhOVzhGckQD/U4A17P6iwXrfwyURVhmIRlQgjE6b28KuuXUdDG8qLspC0cu5VfEagPPUDJ+CTAGprU4ldLOxr6xo4TCu27MRMapEckCzv7RldHc00iFVa96Al1BshMKWMXLizjafIAgW9nsn3qyyVyAvcJ2VU1exDI+0koB6T+7zOdqRXnvReygo7YXUYLgt9+bVoNZo/wIDAQAB

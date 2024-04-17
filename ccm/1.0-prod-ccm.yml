@@ -1,0 +1,158 @@
+---
+metadata:
+  serviceId: "aex-sizeandpack-listener"
+  serviceConfigVersion: "1.0-PROD"
+  authzPolicies:
+    adminUI:
+      adminGroups:
+        - "apparel-precision-kitt"
+    git:
+      org: "ApparelPrecision"
+      repo: "aex-size-and-pack-listener"
+      branch: "main"
+  notifications:
+    slack:
+      channel: "apparel-precision-ops"
+  deliveryEnvironment: "PROD"
+  locked: false
+configDefinitions:
+  httpConfig:
+    description: "HTTP Configurations"
+    resolutionPaths:
+      -
+        default: "/envProfile/envName"
+    properties:
+      http.connectTimeout:
+        description: "Connection Timeout for HTTP Calls"
+        type: "INTEGER"
+        kind: "SINGLE"
+        defaultValue: 18000
+      http.connectionRequestTimeout:
+        description: "Connection Request Timeout for HTTP Calls"
+        type: "INTEGER"
+        kind: "SINGLE"
+        defaultValue: 18000
+      http.readTimeout:
+        description: "Read Timeout for HTTP calls"
+        type: "INTEGER"
+        kind: "SINGLE"
+        defaultValue: 18000
+  kafkaConfig:
+    description: "Kafka Configurations"
+    resolutionPaths:
+      -
+        default: "/envProfile/envName"
+    properties:
+      aex.assortproduct.definition.kafka.topic:
+        description: "Kafka Topic for Assort product"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "aex_dataproc_service"
+      aex.clp.ap.kafka.consumer.group-id:
+        description: "Group Id for current line plan kafka topic"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "aex.sizeandpack.service"
+      aex.clp.ap.kafka.server:
+        description: "Kafka Broker list for AEX current line plan"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "kafka-420262885-1-1196111317.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-2-1196111320.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-3-1196111323.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-4-1196111326.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-5-1196111329.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-6-1196111332.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-7-1196111335.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-8-1196111338.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-9-1196111341.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-10-1196111344.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-11-1196111347.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-12-1196111350.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-13-1196111353.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-14-1196111356.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093,kafka-420262885-15-1196111359.scus.kafka-v2-shared1-ssl-prod.ms-df-messaging.prod-az-southcentralus-2.prod.us.walmart.net:9093"
+      aex.clp.ap.kafka.topic:
+        description: "Kafka Topic for AEX current line plan "
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "aex_line_plan_prod"
+      aex.plan.definition.kafka.topic:
+        description: "Kafka Topic for AEX Plan Definition"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "aex_plan_definition"
+      kafka.autoOffsetReset:
+        description: "Auto Offset Reset config for Kafka consumer connections"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "latest"
+      kafka.consumer.accepted.channels:
+        description: "Accepted 'channel' attribute in payload received by kafka consumer"
+        type: "STRING"
+        kind: "MULTI"
+        defaultValues:
+          - "store"
+          - "omni"
+          - "online"
+      kafka.consumer.accepted.types:
+        description: "Accepted 'type' attribute in payload received by kafka consumer"
+        type: "STRING"
+        kind: "MULTI"
+        defaultValues:
+          - "create"
+          - "update"
+          - "delete"
+      kafka.consumer.accepted.updates:
+        description: "Accepted update events in payload received by kafka consumer"
+        type: "STRING"
+        kind: "MULTI"
+        defaultValues:
+          - "channel"
+          - "colorName"
+          - "finelineName"
+          - "altFinelineName"
+      "kafka.consumer.initial.load.flag":
+        description: "Initial Load to sync plans between LP to other capabilities"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "false"
+      kafka.enableAutoCommit:
+        description: "Autocommit Enable config for Kafka consumer connections"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "false"
+      kafka.heartbeatInterval:
+        description: "Heartbeat Interval for Kafka consumer connections"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "12000"
+      kafka.sessionTimeout:
+        description: "Session Timeout for Kafka consumer connections"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "15000"
+  strategyConfig:
+    description: "Strategy Configurations"
+    resolutionPaths:
+      -
+        default: "/envProfile/envName"
+    properties:
+      strategy.baseUrl:
+        description: "Strategy Base URL"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "https://strategy.aex.prod.walmart.net"
+  sizepackConfig:
+    description: "SizeAndPack Configurations"
+    resolutionPaths:
+      - default: "/envProfile/envName"
+    properties:
+      sizepack.baseUrl:
+        description: "SizeAndPack Base URL "
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "http://aex-size-and-pack.aex.prod.walmart.net"
+      sizepack.consumerId:
+        description: "Consumer Id"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "b27f73cc-1cab-437f-9524-a9056d561d73"
+      sizepack.appKey:
+        description: "sizepack App Key"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "AEX_SIZE_AND_PACK"
+      sizepack.env:
+        description: "sizepack Env"
+        type: "STRING"
+        kind: "SINGLE"
+        defaultValue: "prod"
+apiVersion: "2.0"
+kind: "ServiceConfig"
